@@ -4,6 +4,23 @@
         <script src="lightbox/lightbox-plus-jquery.js"></script>
     </head>
     <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .video-container {
+            width: 320px; /* Adjust as needed */
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        video {
+        width: 100%;
+        display: block;
+        }
         .box {
             width: 200px;
             height: 150px;
@@ -34,5 +51,22 @@
              src="images/2dart/pic vapor cones.jpg" alt="art5">
         </a>
          <h1>animation</h1>
+         <!-- VIDEO 2 -->
+         <div class="gallery">
+            <div class="video-container">
+            <video controls poster="images/ani/previews/carousel.png">
+                <source src="images/ani/previews/carousel.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- VIDEO 2 -->
+        <div class="video-container">
+            <video controls poster="images/ani/previews/frezipop.png">
+                <source src="images/ani/previews/frezip.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
     </body>
-</html>
+    </html>
