@@ -1,7 +1,7 @@
 :root {
   --lb-overlay-opacity: 0.8;
   --lb-overlay-bg: black;
-  --lb-border-radius: 2px;
+  --lb-border-radius: 1px;
   --lb-image-border-width: 2px;
   --lb-image-border-color: white;
   --lb-container-bg: white;

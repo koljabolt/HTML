@@ -3,23 +3,30 @@
         <link href="lightbox/lightbox.css" rel="stylesheet" />
         <script src="lightbox/lightbox-plus-jquery.js"></script>
     </head>
+    <style>
+        .box {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
     <title>Art Page</title>
     <body>
         <h1>2d art gallery</h1>
         <a href="images/2dart/alexanderplatz.jpg" data-lightbox="2dart" object-fit: cover;>
-            <img src="images/2dart/alexanderplatz.jpg" alt="Alexanderplatz" width="200" height="150"> 
+            <div class="box"><img src="images/2dart/alexanderplatz.jpg" alt="art1"></div> 
         </a>
-        <a href="images/2dart/pic max and fighters.jpg" data-lightbox="2dart" object-fit: cover;>
-            <img src="images/2dart/pic max and fighters.jpg" alt="Alexanderplatz" width="200" height="150"> 
+        <a href="images/2dart/pic max and fighters.jpg" data-lightbox="2dart">
+             <div class="box"><img src="images/2dart/pic max and fighters.jpg" alt="art2"></div>
         </a>
-        <a href="images/2dart/pic street rave.jpg" data-lightbox="2dart" object-fit: cover;>
-            <img src="images/2dart/pic street rave.jpg" alt="Alexanderplatz" width="200" height="150"> 
+        <a href="images/2dart/pic street rave.jpg" data-lightbox="2dart">
+             <div class="box"><img src="images/2dart/pic street rave.jpg" alt="art3"></div> 
         </a>
-        <a href="images/2dart/pic tramdude heinz.jpg" data-lightbox="2dart" object-fit: cover;>
-            <img src="images/2dart/pic tramdude heinz.jpg" alt="Alexanderplatz" width="200" height="150"> 
+        <a href="images/2dart/pic tramdude heinz.jpg" data-lightbox="2dart">
+             <div class="box"><img src="images/2dart/pic tramdude heinz.jpg" alt="art4"></div> 
         </a>
-        <a href="images/2dart/pic vapor cones.jpg" data-lightbox="2dart" object-fit: cover;>
-            <img src="images/2dart/pic vapor cones.jpg" alt="Alexanderplatz" object-fit: cover; width="200" height="150"> 
+        <a href="images/2dart/pic vapor cones.jpg" data-lightbox="2dart">
+             <div class="box"><img src="images/2dart/pic vapor cones.jpg" alt="art5"></div>
         </a>
     </body>
 </html>
