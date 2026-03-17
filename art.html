@@ -26,30 +26,43 @@
             height: 150px;
             object-fit: cover;
         }
+        #lightbox { 
+            position: fixed !important; 
+            top: 50% !important; 
+            transform: translateY(-50%); 
+        }
+
+        #lightboxOverlay { 
+            position: fixed !important; 
+            top: 0; left: 0; height: 100% !important; 
+            width: 100% !important; 
+        }
     </style>
     <title>Art Page</title>
     <body>
         <h1>2d art</h1>
-        <a href="images/2dart/alexanderplatz.jpg" data-lightbox="2dart">
-            <img class="box" 
-            src="images/2dart/alexanderplatz.jpg" alt="art1">
-        </a>
-        <a href="images/2dart/pic max and fighters.jpg" data-lightbox="2dart">
-            <img class="box"
-            src="images/2dart/pic max and fighters.jpg" alt="art2">       
-        </a>
-        <a href="images/2dart/pic street rave.jpg" data-lightbox="2dart">
-            <img class="box"
-            src="images/2dart/pic street rave.jpg" alt="art3">
-        </a>
-        <a href="images/2dart/pic tramdude heinz.jpg" data-lightbox="2dart">
-             <img class="box"
-             src="images/2dart/pic tramdude heinz.jpg" alt="art4">
-        </a>
-        <a href="images/2dart/pic vapor cones.jpg" data-lightbox="2dart">
-             <img class="box"
-             src="images/2dart/pic vapor cones.jpg" alt="art5">
-        </a>
+        <div class="gallery"> 
+            <a href="images/2dart/alexanderplatz.jpg" data-lightbox="2dart">
+                <img class="box" 
+                src="images/2dart/alexanderplatz.jpg" alt="art1">
+            </a>
+            <a href="images/2dart/pic max and fighters.jpg" data-lightbox="2dart">
+                <img class="box"
+                src="images/2dart/pic max and fighters.jpg" alt="art2">       
+            </a>
+            <a href="images/2dart/pic street rave.jpg" data-lightbox="2dart">
+                <img class="box"
+                src="images/2dart/pic street rave.jpg" alt="art3">
+            </a>
+            <a href="images/2dart/pic tramdude heinz.jpg" data-lightbox="2dart">
+                <img class="box"
+                src="images/2dart/pic tramdude heinz.jpg" alt="art4">
+            </a>
+            <a href="images/2dart/pic vapor cones.jpg" data-lightbox="2dart">
+                <img class="box"
+                src="images/2dart/pic vapor cones.jpg" alt="art5">
+            </a>
+        </div>
         <h1>animation</h1>
         <div class="gallery"> 
             <div class="video-container"><!-- VIDEO 1 -->
