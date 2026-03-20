@@ -9,33 +9,33 @@
   <link rel="stylesheet" href="style.css">
   <style>
     .header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-top: 15%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 
+        "topleft topcenter topright"
+        "bottomleft bottomcenter bottom right";
     }
-    .follower {
-      justify-content: center;
-      text-align: center;
-      margin: 5px;
-    }
-    .container {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center; 
-      height: 300px;
     }
   </style>
   <body>
-    <div class="body">
       <div class="header">
-        <h1>
-          KOLJA
-          <img src="images/logo.webp" alt="logo" style="width: 100px; height: 100px;">
-          BOLDYREV
-        </h1>
-      </div class="follower">
-        <h2> Digital Art 2d Animation Storytelling</h2>
+        <div class="top left">
+          <h1> KOLJA </h1>
+        </div>
+        <div class="top center">
+          <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="top right">
+          <h1> BOLDYREV </h1>
+        </div>
+        </div class="bottomleft">
+        <h2> Digital Art </h2>
+        </div>
+        <div class="bottomcenter">
+        <h2> Animation </h2>
+        </div>
+        <div class="bottomright">
+        <h2> Storytelling</h2>
       </div>
       <div class="container">
         <a href="art.html"><img src="images/art.png" alt="artwork"></a>
