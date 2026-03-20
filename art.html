@@ -4,6 +4,20 @@
         <link href="lightbox/lightbox.css" rel="stylesheet" />
     </head>
     <style>
+        .body {
+            background: #dde1e5;
+        }
+        .paperOverlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        mix-blend-mode: multiply;
+        background-repeat: repeat;
+        pointer-events: none;
+        background-image: url("images/white-paper-texture.jpg")
+        }
         .gallery {
             display: flex;
             flex-wrap: wrap;
@@ -51,63 +65,66 @@
     </style>
     <title>Art Page</title>
     <body>
-        <h1>2d art</h1>
-        <div class="gallery"> 
-            <a href="images/2dart/alexanderplatz.jpg" data-lightbox="2dart">
-                <img class="box" 
-                src="images/2dart/alexanderplatz.jpg" alt="art1">
-            </a>
-            <a href="images/2dart/pic max and fighters.jpg" data-lightbox="2dart">
-                <img class="box"
-                src="images/2dart/pic max and fighters.jpg" alt="art2">       
-            </a>
-            <a href="images/2dart/pic street rave.jpg" data-lightbox="2dart">
-                <img class="box"
-                src="images/2dart/pic street rave.jpg" alt="art3">
-            </a>
-            <a href="images/2dart/pic tramdude heinz.jpg" data-lightbox="2dart">
-                <img class="box"
-                src="images/2dart/pic tramdude heinz.jpg" alt="art4">
-            </a>
-            <a href="images/2dart/pic vapor cones.jpg" data-lightbox="2dart">
-                <img class="box"
-                src="images/2dart/pic vapor cones.jpg" alt="art5">
-            </a>
+        <div class="body">
+            <h1>2d art</h1>
+            <div class="gallery"> 
+                <a href="images/2dart/alexanderplatz.jpg" data-lightbox="2dart">
+                    <img class="box" 
+                    src="images/2dart/alexanderplatz.jpg" alt="art1">
+                </a>
+                <a href="images/2dart/pic max and fighters.jpg" data-lightbox="2dart">
+                    <img class="box"
+                    src="images/2dart/pic max and fighters.jpg" alt="art2">       
+                </a>
+                <a href="images/2dart/pic street rave.jpg" data-lightbox="2dart">
+                    <img class="box"
+                    src="images/2dart/pic street rave.jpg" alt="art3">
+                </a>
+                <a href="images/2dart/pic tramdude heinz.jpg" data-lightbox="2dart">
+                    <img class="box"
+                    src="images/2dart/pic tramdude heinz.jpg" alt="art4">
+                </a>
+                <a href="images/2dart/pic vapor cones.jpg" data-lightbox="2dart">
+                    <img class="box"
+                    src="images/2dart/pic vapor cones.jpg" alt="art5">
+                </a>
+            </div>
+            <h1>animation</h1>
+            <div class="gallery"> 
+                <div class="video-container"><!-- VIDEO 1 -->
+                    <video controls poster="images/ani/previews/carousel.png">
+                        <source src="images/ani/carousel.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-container"><!-- VIDEO 2 -->
+                    <video controls poster="images/ani/previews/frezipop.png">
+                        <source src="images/ani/frezip.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-container"><!-- VIDEO 3 -->
+                    <video controls poster="images/ani/previews/catgardener.png">
+                        <source src="images/ani/catgardener.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-container"><!-- VIDEO 4 -->
+                    <video controls poster="images/ani/previews/peachbus.png">
+                        <source src="images/ani/Dream 8.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-container"><!-- VIDEO 5 -->
+                    <video controls poster="images/ani/previews/devil.png">
+                        <source src="images/ani/devil.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <h1>storyboards</h1>
+            <h1>animatics</h1>
         </div>
-        <h1>animation</h1>
-        <div class="gallery"> 
-            <div class="video-container"><!-- VIDEO 1 -->
-                <video controls poster="images/ani/previews/carousel.png">
-                    <source src="images/ani/carousel.webm" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="video-container"><!-- VIDEO 2 -->
-                <video controls poster="images/ani/previews/frezipop.png">
-                    <source src="images/ani/frezip.webm" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="video-container"><!-- VIDEO 3 -->
-                <video controls poster="images/ani/previews/catgardener.png">
-                    <source src="images/ani/catgardener.webm" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="video-container"><!-- VIDEO 4 -->
-                <video controls poster="images/ani/previews/peachbus.png">
-                    <source src="images/ani/Dream 8.webm" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="video-container"><!-- VIDEO 5 -->
-                <video controls poster="images/ani/previews/devil.png">
-                    <source src="images/ani/devil.webm" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-        <h1>storyboards</h1>
-        <h1>animatics</h1>
+        <div class="paperOverlay"></div>
     </body>
     </html>
