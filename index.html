@@ -30,7 +30,6 @@
     .griddy {
       display: grid;
       grid-template-columns: 1fr 2fr 1fr;
-      justify-content: center;
       gap: 1px;
       padding: 20%;
       border: 1px;
@@ -41,7 +40,6 @@
     }
     .griddy div {
       padding: 10px;
-      background-color: aqua;
     }
     .griddy div.topcenter {
       grid-area: topcenter;
@@ -64,32 +62,41 @@
     }    
     .griddy div.midcenter {
       grid-area: midcenter;
-      justify-content: center;
       align-self: center;
+      justify-self: center;
+    }
+    .footer {
+      text-align: center;
+      font-family: Helvetica, sans-serif;
+      font-size: 10 px;
+      padding-bottom: 5%;
     }
   </style>
   <body>
-      <div class="griddy">
-        <div class="topcenter">
-          <h1>KOLJA
-          <img src="images/logo.webp" alt="logo">
-          BOLDYREV
-          </h1>
-        </div>
-        <div class="bottomleft">
-          <h2> Digital Art 
-          </h2>
-        </div>
-        <div class="bottomcenter">
-          <h2> Animation </h2>
-        </div>
-        <div class="bottomright">
-          <h2> Storytelling</h2>
-        </div>
-        <div class="midcenter">
-          <a href="art.html"><img src="images/art.png" alt="artwork"></a>
-          <a href="prj.html"><img src="images/prj.png" alt="projects"></a>
-        </div>
+    <div class="griddy">
+      <div class="topcenter">
+        <h1>KOLJA
+        <img src="images/logo.webp" alt="logo">
+        BOLDYREV
+        </h1>
+      </div>
+      <div class="bottomleft">
+        <h2> Digital Art 
+        </h2>
+      </div>
+      <div class="bottomcenter">
+        <h2> Animation </h2>
+      </div>
+      <div class="bottomright">
+        <h2> Storytelling</h2>
+      </div>
+      <div class="midcenter">
+        <a href="art.html"><img src="images/art.png" alt="artwork"></a>
+        <a href="prj.html"><img src="images/prj.png" alt="projects"></a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2024 Kolja Boldyrev. All rights reserved.</p>
     </div>
   </body>
 </html>   
