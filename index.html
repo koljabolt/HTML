@@ -29,14 +29,15 @@
     }
     .griddy {
       display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr  1fr;
       gap: 1px;
       padding: 20%;
       border: 1px;
       grid-template-areas: 
-        "topcenter topcenter topcenter"
-        "bottomleft bottomcenter bottomright"
-        "midcenter midcenter midcenter";
+        "topleft topcenter topcenter topcenter topright"
+        "midleft mid1 mid2 mid3 midright"
+        "picleft pic1 piccenter pic2 picright"
+        "footer footer footer footer footer";
     }
     .griddy div {
       padding: 10px;
@@ -49,18 +50,23 @@
       max-width: 100%;
       height: auto;
     }
-    .griddy div.bottomleft {
-      grid-area: bottomleft;
+    .griddy div.mid1 {
+      grid-area: mid1;
       text-align: center;
       height: auto;
     }
-    .griddy div.bottomcenter {
-      grid-area: bottomcenter;
+    .griddy div.mid2 {
+      grid-area: mid2;
       text-align: center;
       height: auto;
     }
-    .griddy div.bottomright {
-      grid-area: bottomright;
+    .griddy div.mid3 {
+      grid-area: mid3;
+      text-align: center;
+      height: auto;
+    }
+    .griddy div.midright {
+      grid-area: midright;
       text-align: center;
       height: auto;
     }    
@@ -72,11 +78,29 @@
       max-width: 100%;
       height: auto;
     }
-    .footer {
+    .griddy div.pic1 {
+      grid-area: pic1;
+      align-self: center;
+      justify-self: center;
+      padding: 20%;
+      max-width: 100%;
+      height: auto;
+    }
+    .griddy div.pic2 {
+      grid-area: pic2;
+      align-self: center;
+      justify-self: center;
+      padding: 20%;
+      max-width: 100%;
+      height: auto;
+    }
+    .griddy div.footer {
+      grid-area: footer;
       text-align: center;
       font-family: Helvetica, sans-serif;
       font-size: 10 px;
-      padding-bottom: 5%;
+      padding-top: 50%;
+
     }
   </style>
   <body>
@@ -87,23 +111,25 @@
         BOLDYREV
         </h1>
       </div>
-      <div class="bottomleft">
+      <div class="mid1">
         <h2> Digital Art 
         </h2>
       </div>
-      <div class="bottomcenter">
+      <div class="mid2">
         <h2> Animation </h2>
       </div>
-      <div class="bottomright">
+      <div class="mid3">
         <h2> Storytelling</h2>
       </div>
-      <div class="midcenter">
+      <div class="pic1">
         <a href="art.html"><img src="images/art.png" alt="artwork"></a>
+      </div>
+      <div class="pic2">
         <a href="prj.html"><img src="images/prj.png" alt="projects"></a>
       </div>
-    </div>
-    <div class="footer">
-      <p>© 2024 Kolja Boldyrev. All rights reserved.</p>
+      <div class="footer">
+        <p>© 2024 Kolja Boldyrev. All rights reserved.</p>
+      </div>
     </div>
   </body>
 </html>   
