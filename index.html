@@ -14,12 +14,36 @@
       align-items: center;
       justify-content: center;
       vertical-align: middle;
-      gap: 10px;
-      padding: 20%;
+      gap: 5px;
+      padding: 5px;
       grid-template-areas: 
         "topleft topcenter topright"
         "bottomleft bottomcenter bottom right";
     }
+    .header div.top.left {
+      grid-area: topleft;
+      text-align: right
+    }
+    .header div.top.center {
+      grid-area: topcenter;
+      align-items: center;
+    }
+    .header div.top.right {
+      grid-area: topright;
+      text-align: left;
+    }
+    .header div.bottomleft {
+      grid-area: bottomleft;
+      text-align: center;
+    }
+    .header div.bottomcenter {
+      grid-area: bottomcenter;
+      text-align: center;
+    }
+    .header div.bottomright {
+      grid-area: bottomright;
+      text-align: center;
+    }    
     .container {
       display: flex;
       justify-content: center;
