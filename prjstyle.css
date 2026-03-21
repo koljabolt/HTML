@@ -48,9 +48,9 @@ body {
   position: absolute;
   width: 15px;
   height: 15px;
-  right: -17px;
-  background-color: #98d2dc;
-  border: 1px solid #e7902d;
+  right: -5px;
+  background-color: #6b6b6b;
+  border: 1px solid #6b6b6b;
   top: 15px;
   border-radius:60%;
   z-index: 1;
@@ -66,7 +66,7 @@ body {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
+/* Add arrows to the left container (pointing right) 
 .left::before {
   content: " ";
   height: 0;
@@ -78,9 +78,9 @@ body {
   border: medium solid rgb(223, 50, 50);
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent rgb(32, 193, 102);
-}
+}*/
 
-/* Add arrows to the right container (pointing left) */
+/* Add arrows to the right container (pointing left) 
 .right::before {
   content: " ";
   height: 0;
@@ -92,7 +92,7 @@ body {
   border: medium solid rgb(247, 75, 124);
   border-width: 10px 10px 10px 0;
   border-color: transparent rgb(244, 15, 15) transparent transparent;
-}
+}*/
 
 /* Fix the circle for containers on the right side */
 .right::after {
