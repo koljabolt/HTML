@@ -199,7 +199,7 @@ body.lb-disable-scrolling {
   cursor: pointer;
   opacity: 1;
 }
-.dropbtn {
+/*.dropbtn {
   display: flex;
   background-image: url("images/menu.png");
   color: white;
@@ -240,4 +240,4 @@ body.lb-disable-scrolling {
   background-image: url("images/menu.png");
   opacity: 0.8;
   background-color: #515151;
-}
+}*/
