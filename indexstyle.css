@@ -29,7 +29,7 @@ img {
     border: 1px;
     grid-template-areas: 
         "topleft topcenter topcenter topcenter topright"
-        "midleft mid1 mid2 mid3 midright"
+        "midleft midcenter midright"
         "picleft pic1 piccenter pic2 picright"
         "footer footer footer footer footer";
 }
@@ -50,34 +50,20 @@ img {
 .griddy div.topright {
     grid-area: topright;
 }
-.griddy div.mid1 {
-    grid-area: mid1;
+.griddy div.midleft {
+    grid-area: midleft;
     text-align: center;
-    height: auto;
 }
-.griddy div.mid2 {
-    grid-area: mid2;
+.griddy div.midcenter {
+    grid-area: midcenter;
     text-align: center;
-    height: auto;
-}
-.griddy div.mid3 {
-    grid-area: mid3;
-    text-align: center;
+    justify-content: center;
     height: auto;
 }
 .griddy div.midright {
     grid-area: midright;
     text-align: center;
-    height: auto;
 }    
-.griddy div.midcenter {
-    grid-area: midcenter;
-    align-self: center;
-    justify-self: center;
-    padding: 20%;
-    max-width: 100%;
-    height: auto;
-}
 .griddy div.pic1 {
     grid-area: pic1;
     align-self: center;
