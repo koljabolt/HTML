@@ -164,7 +164,7 @@ img {
     display: flex;
     justify-content: center;
 }
-.row {
+.iconbox-item {
     width: auto;
     padding: 5px;
     width: 80px;
