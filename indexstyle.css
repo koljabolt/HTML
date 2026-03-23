@@ -24,7 +24,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr  1fr;
     gap: 1px;
-    padding: 20%;
+    padding: 30px;
     border: 1px;
     grid-template-areas: 
     "topleft topcenter topcenter topcenter topright"
