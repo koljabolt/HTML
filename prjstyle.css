@@ -64,14 +64,6 @@ body {
   padding: 20px;
   font-size: 25px;
 }
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: rgba(220, 220, 220, 0.3);
-  text-align: center;
-}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
