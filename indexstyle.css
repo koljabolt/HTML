@@ -32,7 +32,7 @@ img {
     grid-template-areas: 
         "topleft topcenter topcenter topcenter topright"
         "midleft midcenter midcenter midcenter midright"
-        "picleft pic1 piccenter pic2 picright"
+        "picleft piccenter piccenter piccenter picright"
         "footer footer footer footer footer";
 }
 .griddy div {
@@ -77,8 +77,6 @@ img {
 }
 .griddy div.piccenter {
     grid-area: piccenter;
-    width: 100%;
-    height: auto;
     align-items: center;
     text-align: center;
 }
