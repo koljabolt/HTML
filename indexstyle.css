@@ -24,16 +24,16 @@ img {
 
 .griddy {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1px;
     padding: 10px;
     margin:10px;
     border: 1px;
     grid-template-areas: 
-        "t1 t2 t2 t2 t3"
-        "m1 m2 m3 m4 m5"
-        "b1 b2 b2 b2 b3"
-        "f1 f2 f2 f2 f3";
+        "t1 t2 t2 t3"
+        "m1 m2 m3 m4"
+        "b1 b2 b2 b3"
+        "f1 f2 f2 f3";
 }
 .griddy div {
     padding: 5px;
@@ -57,13 +57,6 @@ img {
     grid-area: m3;
     align-items: center;
     text-align: center;
-    width: 100%;
-}
-.griddy div.m4 {
-    grid-area: m4;
-    align-items: center;
-    text-align: center;
-    object-fit: fill;
     width: 100%;
 }
  
