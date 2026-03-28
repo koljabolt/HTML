@@ -13,6 +13,13 @@ body {
   font-family: "Helvetica Neue Light", sans-serif;
 
 }
+h1 {
+  color:  rgb(106, 106, 106);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-stretch: condensed;
+  text-align: center;
+}
 
 /* Container holding the image and menu */
 .dropdown {
