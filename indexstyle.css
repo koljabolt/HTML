@@ -60,6 +60,10 @@ img {
     width: 100%;
     display: flex;
 }
+.griddy div.m3 img{
+    display: block;
+}
+
 
  
 .griddy div.b2 {
