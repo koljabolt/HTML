@@ -62,8 +62,6 @@ h2 {
 }
 .griddy div.m3 img{
     display: block;
-    height: 50%;
-    width: auto;
     object-fit: contain;
 }
 .griddy div.b2 {
