@@ -31,16 +31,16 @@ h2 {
 /* Index page grid */
 .griddy {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1px;
     padding: 10px;
     margin:10px;
     border: 1px;
     grid-template-areas: 
-        "t1 t2 t2 t3"
-        "m1 m3 m3 m4"
-        "b1 b2 b2 b3"
-        "f1 f2 f2 f3";
+        "t2 t2"
+        "m3 m3"
+        "b2 b2"
+        "f2 f2";
 }
 .griddy div {
     padding: 5px;
@@ -52,9 +52,6 @@ h2 {
     max-width: 100%;
     height: 200px;
 } 
-.griddy div.m1{
-    grid-area: m1;
-}
 .griddy div.m3 {
     grid-area: m3;
     display: flex;
