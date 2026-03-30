@@ -68,7 +68,8 @@ h1 {
 
 .header {
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
   font-size: 25px;
   margin: 0;
 }
