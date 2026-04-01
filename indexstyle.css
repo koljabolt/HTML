@@ -1,6 +1,7 @@
 body{
 background: #dde1e5;
 background-image: url("images/bg text 01.png");
+background-repeat: repeat;
 }
 h1 {
     color:  rgb(105, 105, 105);
